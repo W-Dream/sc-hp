@@ -17,13 +17,7 @@ public class ServiceHiApplication {
         SpringApplication.run(ServiceHiApplication.class, args);
     }
 
-    /**
-     * develop分支
-     */
-
-    /**
-     * master分支
-     */
+    //合并分支
 
     @Value("${server.port}")
     private String port;
